@@ -1,0 +1,10 @@
+C:\Users\Administrator\Desktop\DW.Profiles\DW.Profiles\bin\Debug\DW.Profiles.dll.config
+C:\Users\Administrator\Desktop\DW.Profiles\DW.Profiles\bin\Debug\DW.Profiles.dll
+C:\Users\Administrator\Desktop\DW.Profiles\DW.Profiles\bin\Debug\DW.Profiles.pdb
+C:\Users\Administrator\Desktop\DW.Profiles\DW.Profiles\bin\Debug\Microsoft.SharePoint.Client.dll
+C:\Users\Administrator\Desktop\DW.Profiles\DW.Profiles\bin\Debug\Microsoft.SharePoint.Client.Runtime.dll
+C:\Users\Administrator\Desktop\DW.Profiles\DW.Profiles\bin\Debug\Microsoft.SharePoint.Client.xml
+C:\Users\Administrator\Desktop\DW.Profiles\DW.Profiles\bin\Debug\Microsoft.SharePoint.Client.Runtime.xml
+C:\Users\Administrator\Desktop\DW.Profiles\DW.Profiles\obj\Debug\DW.Profiles.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\DW.Profiles\DW.Profiles\obj\Debug\DW.Profiles.dll
+C:\Users\Administrator\Desktop\DW.Profiles\DW.Profiles\obj\Debug\DW.Profiles.pdb

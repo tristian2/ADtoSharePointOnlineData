@@ -1,0 +1,4 @@
+C:\Users\Administrator\Desktop\DW.Profiles\DW.Exception\bin\Debug\Arup.Exception.dll
+C:\Users\Administrator\Desktop\DW.Profiles\DW.Exception\bin\Debug\Arup.Exception.pdb
+C:\Users\Administrator\Desktop\DW.Profiles\DW.Exception\obj\Debug\Arup.Exception.dll
+C:\Users\Administrator\Desktop\DW.Profiles\DW.Exception\obj\Debug\Arup.Exception.pdb

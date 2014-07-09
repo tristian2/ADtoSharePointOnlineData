@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\DW.Profiles\DW.ClientOmAuth\bin\Debug\DW.ClientOmAuth.dll
+C:\Users\Administrator\Desktop\DW.Profiles\DW.ClientOmAuth\bin\Debug\DW.ClientOmAuth.pdb
+C:\Users\Administrator\Desktop\DW.Profiles\DW.ClientOmAuth\obj\Debug\DW.ClientOmAuth.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\DW.Profiles\DW.ClientOmAuth\obj\Debug\DW.ClientOmAuth.dll
+C:\Users\Administrator\Desktop\DW.Profiles\DW.ClientOmAuth\obj\Debug\DW.ClientOmAuth.pdb

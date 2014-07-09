@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<PropertyGroup>
+		<!-- Select a Product Configuration -->
+		<InstallShieldProductConfiguration>Express</InstallShieldProductConfiguration>
+		<!-- Select a Visual Studio Configuration / InstallShield Release -->
+		<Configuration>Debug</Configuration>
+		<InstallShieldRelease>$(Configuration)</InstallShieldRelease>
+	</PropertyGroup>
+	<ItemGroup>
+		<!-- The InstallShieldProject item selects the project to build -->
+		<InstallShieldProject Include="$(MSBuildProjectDirectory)\$(MSBuildProjectName).isl"/>
+		<!-- The InstallShieldReleaseFlags sets Release Flags -->
+		<!--<InstallShieldReleaseFlags Include=""/>-->
+		<!-- The InstallShieldMergeModulePath specifies what directories are
+		searched for Merge Modules -->
+		<!--<InstallShieldMergeModulePath Include=""/>-->
+	</ItemGroup>
+	<ItemGroup>
+		<!-- The ProjectReference items refer to any Visual Studio solutions you want to automatically probe for Project Output Groups.  -->
+	</ItemGroup>
+	<ItemGroup>
+		<!-- The TaggedOutputs items allow you to explicitly add extra files to output groups. Each item must include both Name and OutputGroup, as well as TargetPath metadata values. -->
+		<!--<TaggedOutputs Include="C:\My Test Exe.exe">
+			<Name>My Test Project</Name>
+			<OutputGroup>Primary output</OutputGroup>
+			<TargetPath>My Test Exe.exe</TargetPath>
+		</TaggedOutputs> -->
+	</ItemGroup>
+	<Import Project="$(MSBuildExtensionsPath32)\InstallShield\2013Limited\InstallShield.targets"/>
+	<ItemGroup/>
+	<ItemGroup>
+		<ProjectReference Include="..\DW.ClientOmAuth\DW.ClientOmAuth.csproj">
+			<Name>DW.ClientOmAuth</Name>
+			<Project>{818075B3-D4D9-4EFE-836D-DB8977F0F3C0}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\DW.Exception\DW.Exception.csproj">
+			<Name>DW.Exception</Name>
+			<Project>{50327DF2-5F3E-4C7F-AE74-AB638491BDFD}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\DW.Profiles\DW.Profiles.csproj">
+			<Name>DW.Profiles</Name>
+			<Project>{77C9958F-A215-4E13-932A-E872BB3035E1}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\DW.Profiles.AD\DW.Profiles.AD.csproj">
+			<Name>DW.Profiles.AD</Name>
+			<Project>{89CCCA39-EF4F-4E8C-823D-1A4FC9B691F2}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\DW.Profiles.Import\DW.Profiles.Import.csproj">
+			<Name>DW.Profiles.Import</Name>
+			<Project>{F3C194FD-242F-4A58-A078-339077A86C94}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\DW.Profiles.MMD\DW.Profiles.MMD.csproj">
+			<Name>DW.Profiles.MMD</Name>
+			<Project>{4725E423-2BF0-45F8-A36D-9DAE2BD13E46}</Project>
+		</ProjectReference>
+	</ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DW.Profiles.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DW_Profiles_UserProfileServiceReference_UserProfileService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://uat-admin.sharepoint.com/_vti_bin/userprofileservice.asmx</Value>
+    </Setting>
+    <Setting Name="DW_Profiles_UserProfileServiceReference_UserProfileService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://test-admin.sharepoint.com/_vti_bin/userprofileservice.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
